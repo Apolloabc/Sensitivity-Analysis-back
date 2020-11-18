@@ -10,5 +10,6 @@ public class TestController {
     @RequestMapping(value = "/test",method = RequestMethod.POST)
     public String test(String username, String password){
         return username+"你好呀";
+        
     }
 }
