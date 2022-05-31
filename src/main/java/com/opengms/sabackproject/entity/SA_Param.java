@@ -3,10 +3,10 @@ package com.opengms.sabackproject.entity;
 import lombok.Data;
 
 @Data
-public class SWAT_TxtInOut_Param {
-    String param_name;
+public class SA_Param {
+    String name;
     String description;
-    String option_type;
+    String changeType;
     Float left;
     Float right;
     Float value;
